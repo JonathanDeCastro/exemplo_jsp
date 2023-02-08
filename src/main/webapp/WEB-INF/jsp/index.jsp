@@ -28,7 +28,7 @@
 		
 		<table border="1">
 			<c:forEach var="produto" items="${produtos}" varStatus="id">
-				<tr bgcolor="#${id.count % 2 == 0 ? 'aaee88' : 'ffffff' }">
+				<tr bgcolor="#${id.count % 2 == 0 ? 'aaee88' : '00ffff' }">
 					<td>${produto.nome}</td>
 					<td>${produto.quantidade}</td>
 					<td>${produto.valor}</td>
